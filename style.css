@@ -49,7 +49,7 @@ body {
 }
 
 header .hero {
-    background-image: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwbGFwdG9wfGVufDB8fDB8fHww'); 
+    background-image: url('https://images.unsplash.com/photo-1545665277-5937489579f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvfGVufDB8fDB8fHww'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -289,6 +289,39 @@ section {
 #services ul li:hover {
     background-color: #333;
     transform: scale(1.05);
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 1em;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: turquoise;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin-top: 1em;
 }
 
 
