@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c6aee25da.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Pauline Nanzala</h1>
+            <p>Welcome to my corner of the web! I'm a creative and detail-oriented<br> web designer with a knack for turning ideas into visually stunning<br> and user-friendly websites. With a fresh perspective and a passion for cutting-edge <br> design, I specialize in creating digital experiences that are not only beautiful but also highly functional</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </header>
+    <nav>
+        <p class="navbar-brand" id="brand" href=""><i class="fa-solid fa-code text-white"></i></p>
+
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="your-photo.jpg" alt="John Doe">
+            <p>Short bio about your background, skills, and passion for web design.</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Django</li>
+                <li>Python</li>
+                <li>Figma</li>
+                <li>AngularJS</li>
+            </ul>
+            <a href="c:\Users\Administrator\Downloads\PaulineNanzalaWafulaResume (1).pdf" download>Download Resume</a>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project-grid">
+                <!-- Repeat this block for each project -->
+                <div class="project">
+                    <img src="project-thumbnail.jpg" alt="Project Title">
+                    <h3>Project Title</h3>
+                    <p>Short project description.</p>
+                    <a href="project-details.html">View Details</a>
+                </div>
+                <div class="project">
+                    <img src="project-thumbnail.jpg" alt="Project Title">
+                    <h3>Project Title</h3>
+                    <p>Short project description.</p>
+                    <a href="project-details.html">View Details</a>
+                </div>
+                <div class="project">
+                    <img src="project-thumbnail.jpg" alt="Project Title">
+                    <h3>Project Title</h3>
+                    <p>Short project description.</p>
+                    <a href="project-details.html">View Details</a>
+                </div>
+                <!-- End project block -->
+            </div>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Website Design</li>
+                <li>UI/UX Design</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"John Doe is an exceptional designer who always goes above and beyond."</p>
+                <cite>- Client Name, Job Title</cite>
+            </blockquote>
+            <!-- Repeat for more testimonials -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>&copy; 2024 John Doe</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
