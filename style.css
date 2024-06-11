@@ -1,0 +1,298 @@
+nav ul li a{
+    display: flex;
+    flex-direction: row;
+}
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+nav ul li a {
+    color: turquoise;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+/* General Reset */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Basic Styles for Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header .hero {
+    background-image: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwbGFwdG9wfGVufDB8fDB8fHww'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+    position: relative;
+}
+
+header .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); 
+}
+
+header .hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    z-index: 1;
+    position: relative;
+}
+
+header .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    z-index: 1;
+    position: relative;
+}
+
+header .hero .cta-button {
+    background-color: rgb(7, 19, 50);
+    color: turquoise;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+/* General Reset */
+body, h2, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Basic Styles for Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section Styles */
+section {
+    padding: 2em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* About Me Section */
+#about {
+    text-align: center;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: turquoise;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+    border: 4px solid turquoise;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#about ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+#about ul li {
+    background-color: #333;
+    color: turquoise;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#about a {
+    display: inline-block;
+    background-color: #333;
+    color: turquoise;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#about a:hover {
+    background-color: #333;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+}
+
+#portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: turquoise;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+}
+
+.project {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.project p {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #333;
+    color: turquoise;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+/* General Reset */
+body, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Basic Styles for Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section Styles */
+section {
+    padding: 2em 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: turquoise;
+}
+
+#services ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+#services ul li {
+    background-color: #333;
+    color: turquoise;
+    padding: 1em 2em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#services ul li:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
